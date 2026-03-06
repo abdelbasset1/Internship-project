@@ -1,0 +1,9 @@
+terraform {
+  backend "s3" {
+    bucket         = "reviews-app-tfstatefile-700580650379"
+    key            = "terraform.tfstate"
+    region         = "us-east-1"
+    # Enable S3 native state locking
+    use_lockfile = true
+  }
+}

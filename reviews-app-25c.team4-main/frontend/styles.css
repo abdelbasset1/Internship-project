@@ -1,0 +1,15 @@
+/* Star icon styles */
+
+.fa-star {
+    color: #dadbdf; /* Grey color for the unfilled star */
+}
+
+.fa-star.filled {
+    color: #fbbb07; /* Yellow color for the filled star */
+}
+
+/* Container style for stars */
+
+.stars-container {
+    display: inline-block;
+}

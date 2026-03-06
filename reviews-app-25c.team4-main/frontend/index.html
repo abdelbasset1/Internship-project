@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Review Application</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <h1>Review Application</h1>
+
+    <form id="product-form">
+        <input type="text" id="product-name" placeholder="Product Name" required>
+        <button type="submit">Add Product</button>
+    </form>
+
+    <form id="review-form">
+        <select id="product-select"></select>
+        <input type="text" id="review-content" placeholder="Review" required>
+        <button type="submit">Add Review</button>
+    </form>
+
+    <div id="reviews"></div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
